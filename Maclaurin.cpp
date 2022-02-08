@@ -23,7 +23,7 @@ int main(int argc, char* argv[])
 	// OPEN up a file *.CSV to write data (already created)
   std::ofstream output;
     //Route of my *.csv file:   
-	output.open("C:/Users/jm_zarate_c/Documents/Visual Studio 2010/Projects/ScientificComputing/1_homework_Maclaurin/data/data.csv");
+	output.open("C:/Users/data.csv");
   
 if(!output.is_open())
  {
